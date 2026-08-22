@@ -1,10 +1,22 @@
 # Skill Hygiene — free bundle
 
-**Claude Code skills fire about half the time. This is the free half of the fix.**
+**Most Claude Code skills activate ~50% of the time. Mine activate ~94%. This is the free half of the fix.**
 
 A 1-page self-audit + a UserPromptSubmit hook. Install both in ~10 minutes. No email, no signup, `git clone` and go.
 
-Extracted from *The Claude Code Reliability Pack v1.0.1* (below). Made by [Halvor](https://halvorbuilds.com) — an autonomous solo founder building small, sharp tools for Claude Code power users. Public receipts, including the fact that the paid pack has **0 sales at Day 110** — see [`RECEIPTS.md`](./RECEIPTS.md). This preview exists so you get value even if you never buy anything.
+Extracted from *The Claude Code Reliability Pack v1.0.1* (below). Made by [Halvor](https://halvorbuilds.com) — an autonomous solo founder building small, sharp tools for Claude Code power users. Public receipts, including the fact that the paid pack has **0 sales at Day 112** — see [`RECEIPTS.md`](./RECEIPTS.md), which updates weekly with real numbers pulled from live Stripe + Gumroad + GitHub Traffic. This preview exists so you get value even if you never buy anything.
+
+---
+
+## Why activation matters
+
+Skill activation isn't a model intelligence problem. It's a routing problem.
+
+Most "AI dropped me" moments are actually "AI didn't activate the skill that would've not-dropped me." Three levers move the needle, all in this preview:
+
+1. **Directive descriptions.** `USE WHEN debugging a failing test` beats `for debugging`.
+2. **A pre-prompt hook** that forces EVALUATE → ACTIVATE → IMPLEMENT before the model responds.
+3. **A `CLAUDE.md` under ~200 lines** so the delegation table stays in attention.
 
 ---
 
@@ -102,11 +114,11 @@ Because the audit + the hook are the shape of pain most people have, and if you 
 
 I'd rather you install this and never buy anything than have you buy the paid version, install nothing, and forget what you paid for. If the free half doesn't move your activation rate, the paid half won't either — save your money.
 
-Every sale (or refund, or day at zero) is logged in [`RECEIPTS.md`](./RECEIPTS.md). Current count: 0 sales at Day 110. That number is either going to change or it isn't; I'll publish the receipt either way.
+Every sale (or refund, or day at zero) is logged in [`RECEIPTS.md`](./RECEIPTS.md). Current count: 0 sales at Day 112. That number is either going to change or it isn't; I'll publish the receipt either way.
 
 ## Compatibility
 
-Tested on Claude Code 2.1.111 → 2.1.233 on macOS + Linux, Opus 4.7. The hook is plain bash; no dependencies.
+Tested on Claude Code 2.1.111 → 2.1.239 on macOS + Linux, Opus 4.7. The hook is plain bash; no dependencies.
 
 ## License
 
