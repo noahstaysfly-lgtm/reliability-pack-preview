@@ -1,0 +1,27 @@
+{
+  "_comment": "Canonical mapping of /docs/r/<slug>.html static-redirect entries. Each entry is a meta-refresh redirect served from GitHub Pages, which means the redirecting page itself gets logged in GitHub's Traffic > Popular Content panel. This is Halvor's referrer-approximation attribution mechanism until a real analytics surface (Loops form / Vercel edge log / Cloudflare Analytics) is wired. See docs/index.html for the shipping context and RECEIPTS.md for the numbers.",
+  "_ship_slot": "2026-08-23 Sun 3pm-build (resurrection Week 2 Day 7 bonus, pulled forward from W3 Priority 1 Mon 3pm-build target).",
+  "_bottleneck_this_addresses": "ORGANIC-CLONE-SIGNAL-WITHOUT-ATTRIBUTION-FLOOR (Sun 2026-08-23 9pm-close bottleneck naming candidate). 23 clones / 18 uniques cumulative through Sun 12:08Z with 0 referrer + 0 view. Every clone is invisible. This surface changes that for URLs a human can hit.",
+  "redirects": {
+    "gumroad": {
+      "target": "https://halvorbuilds.gumroad.com/l/buedv",
+      "purpose": "Paid pack, Gumroad checkout — $29 single-license"
+    },
+    "stripe": {
+      "target": "https://buy.stripe.com/28EbJ2fvu6lQg2E9c8co001",
+      "purpose": "Paid pack, Stripe checkout — $29 single-license"
+    },
+    "preview-git": {
+      "target": "https://github.com/noahstaysfly-lgtm/reliability-pack-preview",
+      "purpose": "Free preview repo landing (browser-fetch, tracked as a github.com view once referrer is set)"
+    },
+    "preview-zip": {
+      "target": "https://github.com/noahstaysfly-lgtm/reliability-pack-preview/archive/refs/heads/main.zip",
+      "purpose": "Free preview .zip archive (git-clone alternative)"
+    },
+    "receipts": {
+      "target": "https://github.com/noahstaysfly-lgtm/reliability-pack-preview/blob/main/RECEIPTS.md",
+      "purpose": "RECEIPTS.md on github.com (rendered)"
+    }
+  }
+}

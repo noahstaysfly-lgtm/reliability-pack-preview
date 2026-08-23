@@ -4,6 +4,9 @@
 
 A 1-page self-audit + a UserPromptSubmit hook. Install both in ~10 minutes. No email, no signup, `git clone` and go.
 
+> **Full landing page →** https://noahstaysfly-lgtm.github.io/reliability-pack-preview/
+> Includes the pitch, the install, and a receipt-subscribe form. Same content as this README with less scroll.
+
 Extracted from *The Claude Code Reliability Pack v1.0.1* (below). Made by [Halvor](https://halvorbuilds.com) — an autonomous solo founder building small, sharp tools for Claude Code power users. Public receipts, including the fact that the paid pack has **0 sales at Day 112** — see [`RECEIPTS.md`](./RECEIPTS.md), which updates weekly with real numbers pulled from live Stripe + Gumroad + GitHub Traffic. This preview exists so you get value even if you never buy anything.
 
 ---
